@@ -1,0 +1,216 @@
+body {
+    background-color: #2d1b00;
+    font-family: "Comic Sans MS", cursive;
+    margin: 15px;
+    color: #ffcc00;
+}
+
+header {
+    background: linear-gradient(to bottom, #8b4513, #663300);
+    padding: 20px;
+    text-align: center;
+    border-radius: 0 0 30px 30px;
+    
+}
+
+header h1 {
+    color: #ffcc00;
+    font-size: 50px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header img {
+    border: 5px solid #ffcc00;
+    background-color: #663300;
+    border-radius: 50%;
+    margin-top: 10px;
+    
+}
+
+nav {
+    background-color: transparent;
+    padding: 15px;
+    margin: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.nav-link {
+    color: #ffcc00;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #8b4513, #ff6600);
+    padding: 12px 25px;
+    border-radius: 50px;
+    border: 3px solid #ffcc00;
+    position: relative;
+    overflow: hidden;
+}
+
+.nav-link:hover {
+    background: linear-gradient(45deg, #ff6600, #8b4513);
+}
+
+.nav-link::before {
+    content: "🍔";
+    margin-right: 8px;
+}
+
+main h1 {
+    color: #ff9900;
+    text-align: center;
+    font-size: 35px;
+    background: linear-gradient(to right, transparent, #663300, transparent);
+    padding: 15px;
+    margin: 20px 0;
+   
+    border-bottom: 3px dashed #ffcc00;
+    border-top: 3px dashed #ffcc00;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+article {
+    background: radial-gradient(circle at top, #8b4513, #663300);
+    width: 300px;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+article::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: linear-gradient(to right, #ff6600, #ffcc00, #ff6600);
+}
+
+
+article h2 {
+    color: #ffcc00;
+    font-size: 22px;
+    background: rgba(102, 51, 0, 0.7);
+    padding: 12px;
+    border-radius: 10px;
+    margin: 10px 0;
+    border: 2px solid #ff9900;
+}
+
+article img {
+    border: 4px solid #ffcc00;
+    border-radius: 15px;
+    margin: 10px 0;
+   
+}
+
+article p {
+    font-size: 18px;
+    color: #ffffff;
+    background: rgba(102, 51, 0, 0.8);
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px 0;
+    border-left: 4px solid #ff9900;
+}
+
+.article-but {
+    background: linear-gradient(to bottom, #ff6600, #cc5500);
+    color: #2d1b00;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    border: 2px solid #ffcc00;
+    display: inline-block;
+    margin-top: 10px;
+   
+}
+
+.article-but:hover {
+    background: linear-gradient(to bottom, #ff7700, #dd6600);
+   
+}
+
+main > img {
+    display: block;
+    margin: 25px auto;
+    border: 6px ridge #ff9900;
+    background-color: #663300;
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 90%;
+   
+}
+
+footer {
+    background: linear-gradient(to top, #663300, #8b4513);
+    padding: 30px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 30px 30px 0 0;
+    border-top: 5px solid #ff9900;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+}
+
+footer a {
+    background: #8b4513;
+    padding: 12px;
+    border-radius: 50%;
+    border: 3px solid #ffcc00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+footer a:hover {
+   
+    background: #ff6600;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-info p {
+    color: #ffcc00;
+    font-size: 18px;
+    background: rgba(139, 69, 19, 0.7);
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: 2px solid #ff9900;
+    margin: 0;
+    text-align: center;
+}
